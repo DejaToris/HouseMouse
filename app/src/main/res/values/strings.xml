@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HouseMouse</string>
+    <string name="notification_channel_name">Task Reminders</string>
+    <string name="notification_channel_description">Notifications for due and overdue tasks</string>
+    <!-- Other strings -->
+</resources>
