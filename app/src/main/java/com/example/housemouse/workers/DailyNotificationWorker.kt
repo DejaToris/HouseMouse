@@ -31,7 +31,7 @@ class DailyNotificationWorker(
     companion object {
         const val WORK_NAME = "DailyTaskNotificationWorker"
         private var lastNotificationId = 100 // Base for unique notification IDs
-        private const val MAX_NOTIFICATIONS_TO_SHOW = 5 // Limit for how many individual notifications
+        private const val MAX_NOTIFICATIONS_TO_SHOW = 10 // Limit for how many individual notifications
     }
 
     override suspend fun doWork(): Result {
